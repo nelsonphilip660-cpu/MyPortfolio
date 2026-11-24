@@ -1058,3 +1058,10 @@ h1 {
         right: -7px;
     }
 }
+/* Contact links */
+.contact-actions { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; margin: 0 auto 14px; }
+.email-button { background: linear-gradient(100deg, #bd7cff, #6d86ff); }
+.social-link { display: inline-flex; margin: 4px 0 12px; color: #9cbdff; font-size: 13px; font-weight: 600; text-decoration: underline; text-underline-offset: 4px; }
+.contact-hint a { color: #b8d5ff; text-decoration: underline; text-underline-offset: 3px; }
+.contact-item a:hover { color: var(--cyan); text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 380px) { .contact-actions { flex-direction: column; align-items: center; } }
